@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+
 import Navbar from './components/Navbar'
 import Category from './components/Category'
 import { BrowserRouter as Router,Routes ,Route } from 'react-router-dom'
 import Cart from './pages/cart/ShoopingCart'
-import Food from './pages/foodOptions/Food'
+import Food from "../pages/foodOptions/Food";
 import ShopContextProvider from './context/shop_context';
 
 function App() {
